@@ -1,27 +1,28 @@
 {
-  "name": "@lightbase/react-native-panorama-view",
+  "name": "@reality-platforms/react-native-panorama-view",
   "title": "React Native Panorama View",
   "version": "1.0.1",
   "description": "A simple component for displaying panoramic images in your React Native app.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/lightbasenl/react-native-panorama-view",
+  "homepage": "https://github.com/reality-platforms/react-native-panorama-view",
   "scripts": {
     "build": "tsc",
+    "prepare": "yarn build",
     "test": "echo \"No tests specified\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lightbasenl/react-native-panorama-view.git",
-    "baseUrl": "https://github.com/lightbasenl/react-native-panorama-view"
+    "url": "git+https://github.com/reality-platforms/react-native-panorama-view.git",
+    "baseUrl": "https://github.com/reality-platforms/react-native-panorama-view"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Rody Molenaar",
-    "email": "rody@lightbase.nl",
-    "url": "https://github.com/lightbasenl"
+    "name": "Reality Platforms",
+    "email": "support@realityplatforms.org",
+    "url": "https://github.com/reality-platforms"
   },
   "contributors": [
     {
@@ -31,6 +32,10 @@
     {
       "name": "Cristiano Coelho",
       "email": "cristianocca@hotmail.com"
+    },
+    {
+      "name": "David Corbitt",
+      "email": "davidlcorbitt@gmail.com"
     }
   ],
   "license": "MIT",
