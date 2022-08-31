@@ -176,7 +176,7 @@ import ImageIO
         yFov = defaultFoV
 
         sceneView.scene = scene
-        sceneView.backgroundColor = self.backgroundColor
+        sceneView.backgroundColor = .clear
 
         switchControlMethod(to: controlMethod)
      }
